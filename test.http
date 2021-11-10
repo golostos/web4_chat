@@ -1,0 +1,20 @@
+GET http://localhost:3000/api/chat/message HTTP/1.1
+
+###
+
+POST http://localhost:3000/api/chat/user
+Content-Type: application/json
+
+{
+    "name": "John",
+    "password": "12345"
+}
+###
+
+POST http://localhost:3000/api/chat/user/login
+Content-Type: application/json
+
+{
+    "name": "John",
+    "password": "12345"
+}
